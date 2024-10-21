@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e9f5ff;
+    background-image: url(img/catarina.jpg); /* Substitua pelo link da imagem de galinha */
+    background-repeat: repeat;
+}
+
+header {
+    background: #ffcc00;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background: #ff9900;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #ff9900;
+}
+
+.projeto {
+    background: #fff3e0;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.projeto h3 {
+    color: #ffcc00;
+}
+
+.projeto a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    background: #ff9900;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.projeto a:hover {
+    background: #cc7a00;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #ffcc00;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
